@@ -1,0 +1,68 @@
+@import "mixin/margin";
+@import "element-patch";
+@include generate(m-t, margin-top);
+@include generate(m-r, margin-right);
+@include generate(m-b, margin-bottom);
+@include generate(m-l, margin-left);
+
+body,
+html {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+p {
+  margin: 0;
+}
+
+input,
+select {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+input[type="number"] {
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  // -moz-appearance: textfield;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+

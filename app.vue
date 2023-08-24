@@ -1,26 +1,20 @@
 <template>
-  <div>
-    <!-- <NuxtWelcome /> -->
-    <h1>Welcome to the homepage</h1>
-    <h2>{{ hasGPU ? 'gpu 存在' : 'no' }}</h2>
-    <NuxtPage />
-    <!-- <slot /> -->
+  <div theme="main" class="wrap">
+    <Navigation/>
+    <Main/>
   </div>
 </template>
 <script>
-import { onMounted, ref } from 'vue';
+import Navigation from './components/Navigation';
+import Main from './components/Main';
 export default {
   name: 'App',
-  setup() {
-    const hasGPU = ref(null);
-
-    onMounted(() => {
-      hasGPU.value = !!navigator.gpu
-    })
-
-    return {
-      hasGPU
-    }
-  }
+  components: [Navigation, Main]
 }
-</script> 
+</script>
+
+<style scoped>
+  .wrap {
+    display: flex;
+  }
+</style>
