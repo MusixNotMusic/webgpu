@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@webgpu/types": "^0.1.34"
+    "@webgpu/types": "^0.1.34",
+    "stanford-dragon": "^1.1.1",
+    "wgpu-matrix": "^2.5.0"
   }
 }
