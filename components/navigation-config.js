@@ -1,20 +1,25 @@
 export const navList = [
     { 
         path: "index", 
-        name: 'home', 
-        icon: 'el-home', 
-        children: [
-            { 
-                path: "/", 
-                name: 'home1', 
-                icon: 'el-home', 
-            },
-            { 
-                path: "/", 
-                name: 'home2', 
-                icon: 'el-home', 
-            }
-        ] 
+        name: 'Home', 
+        icon: 'el-home',
+        path: "/",  
     },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'Triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'triangle', icon: 'el-home' },
+    { path: "/triangle", name: 'triangle', icon: 'el-home' },
     { path: "/triangle", name: 'triangle', icon: 'el-home' },
 ]

@@ -66,3 +66,20 @@ ul {
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  display: var(--scrool-show);
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(21, 24, 31, 1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
