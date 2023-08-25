@@ -71,10 +71,12 @@ export default {
     }
     .nav-wrap {
         height: calc(100vh - 120px);
-        overflow-y: auto;
         border-top: 1px solid #aaa;
         border-bottom: 1px solid #aaa;
         .nav-box {
+            margin: 20px 0;
+            height: calc(100vh - 160px);
+            overflow-y: auto;
             .nav-item {
                 height: 32px;
                 line-height: 32px;

@@ -87,9 +87,6 @@ export default {
         onMounted(() => {
             console.log('12313', canvasRef.value, navigator.gpu, process)
             if (canvasRef.value) {
-                // setTimeout(async() => {
-                //     await init({ canvas: canvasRef.value, pageState: { active: true } })
-                // })
                 init({ canvas: canvasRef.value, pageState: { active: true } }).then(data => {
                     console.log('init finish')
                 })
